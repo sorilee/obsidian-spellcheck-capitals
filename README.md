@@ -2,18 +2,18 @@
 
 Spellcheck Capitals is an Obsidian plugin that suppresses spellcheck for capitalized words in the editor.
 
-## What it does
+## How to use
 
-By default, the plugin:
+Simply turn on the plugin in the community-plugins settings in Obsidian. That's all; no settings.
+
+## Features
+
+The plugin:
 
 - ignores words that start with an uppercase letter;
 - supports Unicode uppercase letters such as `Élodie`;
 - supports internal apostrophes and dashes such as `O'Neill` and `Jean-Luc`;
 - ignores only words with at least two letters or digits, so single-letter words such as `I` remain spellchecked.
-
-## How to use
-
-Simply turn on the plugin in the community-plugins settings in Obsidian.
 
 ## What it does internally
 

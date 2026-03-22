@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-spellcheck-capitals",
+  "version": "1.0.0",
+  "description": "Spellcheck Capitals suppresses spellcheck for capitalized words in the editor.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "test": "node --import tsx --test test/**/*.test.ts",
+    "version": "node version-bump.mjs && (git rev-parse --is-inside-work-tree >/dev/null 2>&1 && git add manifest.json versions.json || true)"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "spellcheck"
+  ],
+  "author": "Sori Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "esbuild": "^0.25.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "obsidian": "latest"
+  }
+}

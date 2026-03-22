@@ -1,0 +1,9 @@
+{
+  "id": "spellcheck-capitals",
+  "name": "Spellcheck Capitals",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Spellcheck Capitals suppresses spellcheck underlines for capitalized words in Obsidian's editor.",
+  "author": "Sori Lee",
+  "isDesktopOnly": false
+}

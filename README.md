@@ -1,4 +1,4 @@
-# Spellcheck Capitals
+# Spellcheck Capitals for Obsidian
 
 Spellcheck Capitals is an Obsidian plugin that suppresses spellcheck for capitalized words in the editor.
 
